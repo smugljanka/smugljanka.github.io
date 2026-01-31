@@ -1,0 +1,51 @@
+body {
+    font-family: serif, Helvetica;
+    font-size: 18px;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+p {
+    margin: 0px;
+    line-height: 1.5;
+}
+
+.container {
+    border: 1px dotted black;
+    /*background-color: lightgray;*/
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading p>a {
+    text-decoration: none;
+}
+
+.section_row {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.indent {
+    padding-left: 50px;
+    text-wrap: wrap;
+}
